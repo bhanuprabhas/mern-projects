@@ -1,0 +1,332 @@
+/* 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.schedule-calendar {
+  max-width: 800px;
+  height: 600px;
+} */
+
+Style for the calendar component
+
+/* .ScheduleCalendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  border-radius: 14px;
+} */
+
+
+
+.fc-header-toolbar {
+  margin-top: 125px;
+  border-radius: 4px;
+  /* padding-top: 10px; */
+}
+.fc-header-toolbar {
+  background-color: #00c3ff;
+  border: 1px solid hsl(204, 71%, 1%);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+} 
+
+.fc-toolbar-button {
+  background-color: #0429fd;
+  border: 1px solid #050708;
+  border-radius: 6px;
+  color: #067df4;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0px 10px;
+  
+}
+
+.fc-toolbar-button:hover {
+  background-color: hsl(210, 96%, 49%);
+  cursor: pointer;
+  border-color: #050708;
+}
+
+.fc button:disabled {
+  background-color: #060708;
+  /* border-color: #080909; */
+  color: #020202;
+  cursor: default;
+  border-color: #050708;
+}
+
+.fc-day-header {
+  /* font-weight: bold; */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6px;
+}
+
+.fc-day-grid-event {
+  background-color: #007bff;
+  border: 0;
+  color: #151010;
+  cursor: pointer;
+}
+
+.fc-day-grid-event:hover {
+  background-color: #0069d9;
+}
+
+.fc-event-resizer {
+  background-color: #007bff;
+  border: 0;
+}
+
+.fc-event-resizer:hover {
+  background-color: #0069d9;
+}
+
+/* .fc-event-main {
+  white-space: normal;
+} */
+
+.fc-event {
+  background-color: #057df6;
+  border: 1px solid hsl(210, 8%, 5%);
+  color: #212529;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.fc-event:hover {
+  background-color: #047af0;
+}
+
+.fc-popover {
+  background-color: hsl(228, 98%, 47%);
+  border: 1px solid hsl(210, 96%, 51%);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  padding: 30px;
+}
+
+/* .fc-popper {
+  z-index: 20000;
+} */
+
+.fc {
+  /* width: 10%; */
+  height: 500px;
+  margin: 125px auto;
+  display: flex;
+  border: 1px solid hsl(204, 71%, 1%);
+  border-radius: 14px;
+  border-color: #050708;
+
+}
+/* Style for the calendar component */
+.fc .fc-toolbar {
+  background-color: hwb(196 2% 4%);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border-color: #050708;
+}
+
+.fc .fc-toolbar button {
+  border: none;
+  background-color: hsl(210, 98%, 48%);
+  color: #090808;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 8px;
+  border-color: #050708;
+  cursor: pointer;
+}
+
+.fc .fc-toolbar button:hover {
+  background-color: hwb(211 1% 3%);
+  padding: 0px;
+  border-color: #050708;
+}
+
+.fc .fc-toolbar button:focus {
+  /* outline: none; */
+  border-radius: 15px;
+  display: flex;
+  border-color: #050708;
+}
+
+.fc .fc-toolbar .fc-button-active {
+  background-color: rgb(0, 195, 255);
+  color: hsl(210, 94%, 49%);
+  border-color: #050708;
+}
+
+.fc .fc-header-toolbar h2 {
+  margin-top: 10;
+  border-radius: 15px;
+  border-color: #050708;
+}
+
+.fc .fc-header-toolbar .fc-button-group {
+  margin-right: 10px;
+  border-radius: 15px;
+  border-color: #050708;
+
+}
+
+.fc .fc-header-toolbar .fc-button-group:last-child {
+  margin-right: 0;
+  border-color: #050708;
+}
+
+.fc .fc-header-toolbar .fc-button-group button:first-child {
+  border-radius: 5px 0 0 5px;
+  border-color: #050708;
+}
+
+.fc .fc-header-toolbar .fc-button-group button:last-child {
+  border-radius: 0 5px 5px 0;
+  border-color: #050708;
+}
+
+.fc .fc-header-toolbar .fc-button-group button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+  border-color: #050708;
+}
+
+.fc .fc-event {
+  background-color: #0d76e7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fc .fc-event:hover {
+  opacity: 0.8;
+}
+
+.fc .fc-event .fc-title {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.fc .fc-daygrid-event-harness {
+  margin-top: 5px;
+}
+
+.fc .fc-time-grid .fc-event .fc-time {
+  display: none;
+  font-size: 10px;
+}
+
+/* Style for the add event button */
+.add-event-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.add-event-button:hover {
+  opacity: 0.8;
+}
+.ScheduleCalendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 15px;
+  position: fixed;
+
+}
+
+@media (max-width: 768px) {
+  tbody{
+    padding-right: 200px;
+  }
+.fc {
+width: 100%;
+height: 100%;
+padding-bottom: 50px;
+padding-left: 0px;
+
+}
+
+.fc-header-toolbar {
+margin-top: 0px;
+}
+
+.fc-header-toolbar .fc-button-group button {
+font-size: 8px;
+padding: 3px 6px;
+}
+
+.fc .fc-event .fc-title {
+font-size: 8px;
+}
+
+.add-event-button {
+padding: 8px 16px;
+font-size: 12px;
+}
+}
+
+.fc-event:hover {
+  /* change the background color on hover */
+  cursor: pointer; /* change the cursor to a pointer on hover */
+  transform: scale(2.1);
+  border-radius: 10px;
+}
+
+.cal{
+  display: flex;
+  width: 110%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 150px;
+  margin-left: 0px;
+  margin-right: 40px;
+  position: fixed;
+  
+}
+.fc .fc-view-harness-active>.fc-view {
+  bottom: 18px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  /* top: -40px; */
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+:root {
+  --fc-border-color: #191919;
+}
+
+.fc {
+  width: 1300px;
+  height: 510px;
+  margin-top: 125px;
+  margin-right: 125px;
+  margin-bottom: 125px;
+  margin-left: 125px;
+}
+
+/* body {
+  margin-top: auto;
+  margin-right: 130px;
+  margin-bottom: 130px;
+  margin-left: auto;
+} */

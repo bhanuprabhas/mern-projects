@@ -1,0 +1,108 @@
+.teaminfo {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .teaminfo {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  .teamcard {
+    max-width: 100%;
+    margin: 10px;
+    flex-basis: calc(50% - 20px);
+    background-color: #ffffff;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .teamcard {
+    max-width: 45%;
+    margin: 10px;
+    flex-basis: calc(45% - 20px);
+    background-color: #ffffff;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .teamcard {
+    max-width: 29.33%;
+    margin: 20px;
+    flex-basis: calc(29.33% - 40px);
+    background-color: #ffffff;
+    text-align: center;
+  }
+}
+
+.teamcard img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .teamcard img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+.teamcard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .teamcard h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+.teamcard p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .teamcard p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+.team-info-container {
+  background-color: #295b8e;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 150px auto;
+  max-width: 1000px;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .team-info-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  .team-info-container h2 {
+    font-size: 20px;
+  }
+}

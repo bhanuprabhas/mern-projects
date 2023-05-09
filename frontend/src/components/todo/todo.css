@@ -1,0 +1,179 @@
+.todo-list {
+  max-width: 600px;
+  margin: 125px auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-task input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  margin-right: 10px;
+}
+
+.add-task button {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.todo-list li.completed {
+  background-color: #e0e0e0;
+}
+
+.todo-list li label {
+  display: flex;
+  align-items: center;
+}
+
+.todo-list li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-list li span {
+  flex: 1;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.todo-list li button {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-list li button:hover {
+  background-color: #d32f2f;
+}
+
+.todo-list li button:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 2px #f44336;
+}
+
+.todo-list li button:active {
+  background-color: #b71c1c;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  
+  th {
+    background-color: #f8f1f1;
+  }
+  
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    min-width: 400px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .todo-container{
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 70px;
+  }
+
+  #Add-button{
+    border: 1px;
+    background-color: #0077cc;
+  } */

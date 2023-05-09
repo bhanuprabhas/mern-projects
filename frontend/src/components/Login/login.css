@@ -1,0 +1,171 @@
+/* .login-form {
+    width: 350px;
+    margin: 140px auto;
+    padding: 45px;
+    background-color: #f1f1f1;
+    color: #161616;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 35px;
+  }
+  .login-form h2{
+    text-align: center;
+  }
+  .login-label{
+    display: block;
+    margin-bottom: 8px;
+  }
+  .login-input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .login-button{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #0077cc;
+    padding: 8px 16px;
+    border-radius: 7px;
+  } */
+  
+  .login-wrap {
+    width: 100%;
+    max-width: 500px;
+    margin: 140px auto;
+  }
+  
+  .login-html {
+    font-family: 'Roboto', sans-serif;
+    background: #f1f1f1;
+    padding: 40px;
+    border-radius: 35px;
+  }
+  
+  .tab {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    padding: 10px 45px;
+    cursor: pointer;
+    border-radius: 15px 15px 0 0;
+    background: #ccc;
+  }
+  
+  .tab:hover {
+    background: #ccc;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label {
+    background: #ffffff;
+  }
+  
+  .login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .group {
+    margin-bottom: 20px;
+  }
+  
+  .group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .group .input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .group .input:focus {
+    border-color: #aaa;
+  }
+  
+  .check {
+    display: none;
+  }
+  
+  .check + label {
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .check + label .icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .check:checked + label .icon:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #38afff;
+  }
+  
+  .hr {
+    margin-top: 20px;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  .foot-lnk {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .foot-lnk a {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .foot-lnk a:hover {
+    color: #333;
+  }
+  

@@ -1,0 +1,375 @@
+/* Navbar Styling */
+nav {
+  background-color: #00c3ff;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  outline: none;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Header Styling */
+.mainpage_header {
+  background-image: url("./image/bg1.jpg");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainpage_header h1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.mainpage_header p {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.mainpage_header button {
+  background-color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mainpage_header button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* About College Section Styling */
+#about-scb {
+  font-family: Merriweather;
+  background-color: #f2f2f2;
+  padding: 4rem 0;
+}
+
+#about-scb h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#about-scb p {
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+/* College Pics Section Styling */
+
+
+#pics {
+  padding: 4rem 0;
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.gallery-container{
+  margin:0 100px
+}
+
+.image-grid-container {
+  position: relative;
+  overflow: hidden;
+}
+
+#pics h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.image-grid {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; */
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.image-grid img {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 250px;
+  margin-right: 10px;
+  scroll-snap-align: start;
+  border-radius: 10px;
+}
+
+figure {
+	width: 400px;
+	height: 250px;
+	margin: 10px;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+
+
+
+.image-grid img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image-grid figure:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+/* 
+.prev-arrow,
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #666;
+  cursor: pointer;
+}
+
+.prev-arrow {
+  left: 0;
+}
+
+.next-arrow {
+  right: 0;
+} */
+
+
+/* Testimonials Section Styling */
+
+#testimonials {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+.testimonials_container{
+  margin: 0 100px;
+}
+
+.testimonials_container h2{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  margin: 10px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.testimonial-card {
+  flex: 0 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  margin-right: 30px;
+  scroll-snap-align: start;
+
+}
+
+.testimonial-card:last-of-type {
+  margin-right: 10px;
+}
+
+
+.testimonial-card img {
+  border-radius: 10%;
+  max-width: 150px;
+}
+
+.testimonial-card h4 {
+  margin-top: 20px;
+}
+
+.testimonial-card p.title {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+}
+
+
+/* Footer Styling */
+.main-foot {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+
+
+
+
+#about-us {
+  background-color: #f7f7f7;
+  padding: 60px;
+  font-family: Crimsonpro;
+}
+
+.about-me,
+.about-mee {
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+/* margin-bottom: 50px; */
+margin: 0 10px 50px 10px;
+}
+
+.about-me img,
+.about-mee img {
+  width: 300px;
+height: 250px;
+object-fit: cover;
+}
+
+.about-me-text,
+.about-mee-text {
+  flex: 1;
+}
+
+.about-me-text h2,
+.about-mee-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-me-text h3 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.about-mee-text h3{
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.about-me-text p {
+  font-size: 25px;
+  line-height: 1.5;
+}
+.about-mee-text p{
+  font-size: 25px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me,
+  .about-mee {
+    flex-direction: column;
+  }
+
+  .about-me img,
+  .about-mee img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-me-text,
+  .about-mee-text {
+    width: 100%;
+  }
+
+  #about-us {
+    text-align: center;
+  }
+}
+.learn-more {
+  text-decoration: none;
+  
+}

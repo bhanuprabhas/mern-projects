@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Bhanu prabhas",
+    "position": "FD",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Hemanth",
+    "position": "FD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Satya",
+    "position": "FD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Vishnu",
+    "position": "BD",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Ajay",
+    "position": "BD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Divya",
+    "position": "BD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Chandini",
+    "position": "FD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Prassana",
+    "position": "FD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Keerthi",
+    "position": "BD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Nagendra",
+    "position": "FD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Raghuveer",
+    "position": "BD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Mallesh",
+    "position": "FD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  },
+  {
+    "name": "Krishna",
+    "position": "BD Designer",
+    "image": "https://via.placeholder.com/400x200",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris vel magna ullamcorper bibendum."
+  }
+  
+]

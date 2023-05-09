@@ -1,0 +1,103 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .form-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 1.4;
+    resize: none;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .test-case {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .test-case-input,
+  .test-case-output {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .test-case-input textarea,
+  .test-case-output textarea {
+    height: 80px;
+  }
+  
+  .delete-test-case {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .delete-test-case:hover {
+    background-color: #c0392b;
+  }
+  
+  .add-test-case {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-test-case:hover {
+    background-color: #2980b9;
+  }
+  
+  button[type="submit"] {
+    background-color: #2ecc71;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #27ae60;
+  }
+  

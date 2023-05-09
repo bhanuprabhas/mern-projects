@@ -1,0 +1,30 @@
+.body {
+    /* background-color: #0F0F0F; */
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #compile-btn {
+    margin-top: 10px;
+  }
+  
+  
+  .text-code-editor {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+  }
+  .code-editor {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 2;
+  }
+  .code-input {
+    flex: 1;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
